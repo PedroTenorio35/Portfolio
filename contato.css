@@ -1,0 +1,143 @@
+.contato {
+    margin: 5rem 0;
+}
+
+.contato__titulo {
+    color: #494949;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contato__conteudo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contato__link--flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.link__email {
+    margin-left: 1rem;
+}
+.contato__div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.contato__nome {
+    margin-right: 2rem;
+}
+
+.input__nome,
+.input__email {
+    border: none;
+    border-bottom: 1px solid #adadad;
+    padding: 5px 3rem 10px 0;
+}
+
+.input__nome::placeholder,
+.input__email::placeholder {
+    color: #949494;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contato__mensagem {
+    margin-top: 3rem;
+}
+
+.input__mensagem {
+    border: 1px solid #adadad;
+    width: 460px;
+    padding: 1rem 1.5rem;
+}
+
+.input__mensagem::placeholder {
+    color: #949494;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contato__enviar {
+    margin-right: 21%;
+    margin-top: 2rem;
+}
+
+.input__enviar {
+    background-color: #393939;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 10px 4rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 400ms ease-in-out;
+}
+.input__enviar:hover {
+    background-color: #1c1c1c;
+    cursor: pointer;
+}
+
+.titulo__imagem {
+    font-size: 18px;
+    color: #7b7b7b;
+    margin-bottom: 0.5rem;
+}
+
+.texto__imagem {
+    font-size: 14px;
+    color: #979797;
+    text-decoration: none;
+    transition: all 400ms ease-in-out;
+}
+
+.texto__imagem:hover {
+    text-decoration: underline;
+    color: #494949;
+} 
+
+@media (max-width: 576px) {
+    .contato{
+        margin: 6rem 1.5rem 5rem;
+    }
+
+    .contato__conteudo {
+        flex-direction: column;
+    }
+    
+    .contato__inputs {
+        flex-direction: column;
+    }
+
+    .contato__email {
+        margin-top: 2rem;
+    }
+
+    .input__mensagem {
+        width: 80%;
+    }
+
+    .contato__enviar {
+        margin: 2rem auto 2rem;
+        text-align: center;
+    }
+
+    .input__enviar {
+        width: 70vw;
+    }
+}

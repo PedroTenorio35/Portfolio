@@ -1,0 +1,62 @@
+.secao1 {
+    align-items: center;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 70vh;
+    margin-bottom: 4em;
+}
+
+.secao1__texto {
+    margin-left: 6rem;
+}
+
+.secao1__sobretitulo {
+    color: #a6a6a6;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+}
+
+.secao1__titulo {
+    color: #ded8d8;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.secao1__paragrafo {
+    color: #c5c9e2;
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-bottom: 3rem;
+}
+
+.secao1__link {
+    background-color: #1c1c1c;
+    border-radius: 6px;
+    color: #ded8d8;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 400ms ease-in-out;
+}
+
+.secao1__link:hover {
+    background-color: #121212;
+}
+
+@media screen and (max-width: 1024px) {
+    .secao1 {
+        height: 60vh;
+    }
+
+    .secao1__texto {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
