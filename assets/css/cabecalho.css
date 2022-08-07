@@ -1,0 +1,50 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.imagem__cabecalho {
+    margin-left: 4rem;
+}
+
+.menu__lista {
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+}
+
+.menu__item {
+    margin-right: 2.5rem;
+}
+
+.menu__link {
+    color: #777777;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    text-decoration: underline 2px #777777;
+    color: #494949;
+}
+
+@media screen and (max-width: 560px) {
+    .menu {
+        display: none;
+    }
+    .imagem__cabecalho {
+        margin: 0 auto;
+        width: 90px;
+    }
+
+    .cabecalho {
+        padding: 10px 0;
+    }
+}

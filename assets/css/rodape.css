@@ -1,0 +1,47 @@
+.rodape {
+    padding: 20px 0;
+    background-color: #ababab61;
+}
+
+.rodape__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 940px;
+    font-size: 13px;
+    color: #919191;
+    font-weight: 500;
+}
+.rodape__lista {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.rodape__item {
+    padding: 0 15px;
+}
+
+
+.rodape__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #919191;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1024px) {
+    .rodape__container {
+        flex-direction: column;
+        width: 100vw;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape__lista{
+        display: none;
+    }
+}
